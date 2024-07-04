@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login and Signup</title>
+  <link rel="stylesheet" href="login-styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <div class="container" id="container">
+    <div class="form-container sign-up-container">
+      <form id="sign-up-form">
+        <h1>Create Account</h1>
+        <input type="text" placeholder="First Name" id="firstName-input-sign-up" required>
+        <input type="text" placeholder="Last Name" id="lastName-input-sign-up" required>
+        <input type="email" placeholder="Email" id="email-input-sign-up" required>
+        <input type="password" placeholder="Password" id="password-input-sign-up" required>
+        <input type="submit" class="sign-up-btn" value="Sign up">
+      </form>
+    </div>
+    <div class="form-container sign-in-container">
+      <form id="sign-in-form">
+        <h1>Sign in</h1>
+        <div id="error-message"></div>
+        <input type="email" placeholder="Email" id="email-sign-in-input" required>
+        <input type="password" placeholder="Password" id="password-input-sign-in" required>
+        <input type="submit" class="sign-in-btn" value="Sign In">
+      </form>
+    </div>
+  </div>
+  <script src="login-script.js"></script>
+</body>
+</html>

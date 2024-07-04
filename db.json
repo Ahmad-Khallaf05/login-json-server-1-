@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "id": "fd78",
+      "active": true,
+      "firstName": "eyad",
+      "lastName": "khalaf",
+      "email": "ahmadkh@gg.com",
+      "password": "131313131"
+    },
+    {
+      "id": "1b46",
+      "active": false,
+      "firstName": "ahmad",
+      "lastName": "khallaf",
+      "email": "a@a.com",
+      "password": "12345678"
+    }
+  ]
+}
